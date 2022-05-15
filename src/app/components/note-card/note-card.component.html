@@ -1,1 +1,14 @@
-<p>note-card works!</p>
+<div #container class="note-card-container">
+<div class="note-card-content">
+    <h1 class="note-card-title">{{cardTitle}}</h1>
+    <div #bodyText class="note-card-body">
+        <p>{{cardBody}}</p>
+        <div #truncator class="fade-out-truncation"></div>
+    </div>
+</div>
+
+<div class="x-button">
+    <fa-icon [icon]="faXmark" style="display: flex;justify-content: center; font-size: 30px;"></fa-icon>
+
+</div>
+</div>

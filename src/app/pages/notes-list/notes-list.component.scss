@@ -5,4 +5,12 @@
     margin:auto;//to center the content
     padding-top: 50px;
     
-    }
+}
+.notes-list{
+    margin-top: 35px;
+}
+
+app-note-card{
+    display: block;//this is really important for the next line to work
+    margin-bottom: 25px;
+}

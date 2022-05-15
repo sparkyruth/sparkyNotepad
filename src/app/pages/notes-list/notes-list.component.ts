@@ -8,6 +8,8 @@ import { faHeart, faSearch } from '@fortawesome/free-solid-svg-icons';
 export class NotesListComponent implements OnInit {
   faHeart = faHeart;
   faSearch = faSearch;
+  title="Card title"
+  body="This is the card body. it has been added via property binding"
   constructor() { }
 
   ngOnInit(): void {
